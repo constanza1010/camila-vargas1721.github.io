@@ -1,0 +1,109 @@
+
+.navbar {
+    background-color: rgba(6, 253, 212, 0.247);
+}
+
+
+.inicio {
+    background-color: #c7eeee;
+}
+
+.educación {
+    background-color: #c7eeee;
+}
+
+.educación .container {
+    max-width: 1300px;
+}
+
+
+.educación-card {
+    background-color: #ffffffc2;
+    padding: 25px;
+    border-radius: 80px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s
+}
+
+.educación-card:hover {
+    transform: translate(-8px);
+    box-shadow: 0 10px 30px rgba(124, 15, 110, 0.15);
+}
+
+.nombre-titulo {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.intitución {
+    font-size: 20px;
+    color: #000000;
+}
+
+.fecha {
+    font-size: 15px;
+    color: #a59c9c;
+}
+
+.experiencia {
+    background-color: #c7eeee; 
+    padding: 60px 0;
+}
+
+.experiencia .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.titulo {
+    font-size: 50px;
+    font-weight: 700;
+    color: #212529;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.lista {
+    padding-left: 0;
+}
+
+.lista-item {
+    background-color: #ffffffc2;
+    border-left: 5px solid #000000;
+    border-right:5px solid #000000;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 8px rgba(128, 21, 104, 0.08);
+    border-radius: 60px;
+    transition: transform 0.2s 
+}
+
+.lista-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(126, 7, 106, 0.12);
+}
+
+.titulo {
+    font-size: 20px; 
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.lugar {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+.fecha {
+    font-size: 16px;
+    color: #888;
+    font-weight: 500;
+}
