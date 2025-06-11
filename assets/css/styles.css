@@ -107,3 +107,47 @@
     color: #888;
     font-weight: 500;
 }
+
+.portafolio-main {
+    background-color: #c7eeee;
+}
+
+
+.titulo-portafolio {
+    color: #000000;
+    text-align: center;
+}
+
+
+.portafolio-card {
+    transition: transform 0.3s
+   }
+
+.portafolio-card:hover {
+    transform: translateY(-10px);
+}
+
+.portafolio-card .card-imagen-top{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.portafolio-card .card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.portafolio-card .titulo-card{
+    font-size: 20px;
+    color: #000000;
+}
+
+.portafolio-card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.2s
+}
